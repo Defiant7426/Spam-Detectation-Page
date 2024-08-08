@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-image: linear-gradient(to right, rgba(251, 251, 251, 0.7), rgba(17, 17, 17, 0.7)), url("../public/image.png");
+  background-position: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.header .header-spam {
+  display: flex;
+  height: 150px;
+}
+
+ 
