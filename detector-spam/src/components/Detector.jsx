@@ -33,7 +33,7 @@ export default function Detector() {
 
   const handleSubmit = async () => {
     const plainText = inputText.replace(/(\r\n|\n|\r)/gm, ' ');
-    const url = "http://174.138.111.13:5000/predict";
+    const url = "/api/predict";
     const data = { "features": plainText };
     try {
         const response = await fetch(url, {
